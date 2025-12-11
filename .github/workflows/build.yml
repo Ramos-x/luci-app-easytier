@@ -55,9 +55,8 @@ jobs:
           
         sdk:
           - 22.03.7
+          - 23.05.5
           - SNAPSHOT
-          - openwrt-23.05.5
-          - openwrt-22.03.7
     steps:
       - uses: actions/checkout@v4
         with:
